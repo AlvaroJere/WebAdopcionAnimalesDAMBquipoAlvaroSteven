@@ -1,0 +1,8 @@
+<div class="card h-100 shadow-sm">
+  <img [src]="animal.imagen" class="card-img-top" [alt]="animal.nombre" style="height: 200px; object-fit: cover;">
+  <div class="card-body text-center">
+    <h5 class="card-title fw-bold">{{ animal.nombre }}</h5>
+    <p class="card-text text-muted">{{ animal.raza }} - {{ animal.edad }}</p>
+    <button class="btn btn-success w-100">Conóceme</button>
+  </div>
+</div>
