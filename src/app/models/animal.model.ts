@@ -1,9 +1,9 @@
 export interface Animal {
-  id: number;
+  id: number; // Agregamos un ID único para cada animal
   nombre: string;
   especie: string;
   raza: string;
-  edad: string;
+  edad: number;
   imagen: string;
   descripcion: string;
 }

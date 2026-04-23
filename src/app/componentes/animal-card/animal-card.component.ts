@@ -1,5 +1,5 @@
-import { Component, Input } from '@angular/core';
-import { Animal } from '../../models/animal.model'; // Ajusta la ruta si es necesario
+import { Component, Input } from '@angular/core'; // IMPORTANTE EL INPUT
+import { Animal } from '../../models/animal.model';
 
 @Component({
   selector: 'app-animal-card',
@@ -7,5 +7,5 @@ import { Animal } from '../../models/animal.model'; // Ajusta la ruta si es nece
   styleUrls: ['./animal-card.component.css']
 })
 export class AnimalCardComponent {
-  @Input() animal!: Animal; // El "!" indica que el animal llegará desde fuera
+  @Input() animal!: Animal; // Esto permite que la página de adopción le pase datos
 }
